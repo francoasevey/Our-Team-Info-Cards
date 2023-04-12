@@ -14,3 +14,13 @@ a{
 section{
     padding: 10rem 0;
 }
+.heading{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
