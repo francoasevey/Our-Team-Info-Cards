@@ -37,3 +37,9 @@ section{
     transform: translateX(-50%);
     border-radius: (2rem);
 }
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
