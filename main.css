@@ -43,3 +43,13 @@ section{
     align-content: center;
     flex-direction: column;
 }
+.card{
+    width: 32rem;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    box-shadow: .5rem .5rem  3rem rgba(0.0.0.0.2);
+}
