@@ -24,3 +24,16 @@ section{
     color: #fff;
     position: relative;
 }
+.heading::after{
+    content: '';
+    width: 10rem;
+    height: 8rem;
+    background-color: #45e19f;
+    position: absolute;
+    bottom: -2rem;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: (2rem);
+}
