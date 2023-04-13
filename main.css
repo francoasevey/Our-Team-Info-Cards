@@ -104,7 +104,7 @@ section{
     transform: translateY(0);
     box-shadow: none;
 }
-.solid-media{
+.solial-media{
     width: 100%;
     list-style: none;
     display: flex;
@@ -112,4 +112,19 @@ section{
     padding: 2rem 0;
     margin-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0, .1);
+}
+.solial-media i{
+    font-size: 3rem;
+}
+.fa.facebook-square{
+    color: #3b5999;
+}
+.fa-twitter-square{
+    color: #55acee;
+}
+.fa-instagram{
+    color: #36683c;
+}
+.fa-google-plus-square{
+    color: #dd4b39;
 }
