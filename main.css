@@ -74,3 +74,8 @@ section{
     color: #333;
     margin: 1.5rem 0;
 }
+.job-title{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
