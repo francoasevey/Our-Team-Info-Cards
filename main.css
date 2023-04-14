@@ -115,6 +115,7 @@ section{
 }
 .solial-media i{
     font-size: 3rem;
+    transition: color .5s;
 }
 .fa-facebook-square{
     color: #3b5999;
@@ -134,4 +135,12 @@ section{
 .fa-instagram:hover,
 .fa-google-plus-square:hover{
     color: #45e19f;
+}
+@media screen and (min-width: 700px) {
+    .card-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
