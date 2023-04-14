@@ -116,7 +116,7 @@ section{
 .solial-media i{
     font-size: 3rem;
 }
-.fa.facebook-square{
+.fa-facebook-square{
     color: #3b5999;
 }
 .fa-twitter-square{
@@ -127,4 +127,11 @@ section{
 }
 .fa-google-plus-square{
     color: #dd4b39;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover{
+    color: #45e19f;
 }
