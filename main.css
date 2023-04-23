@@ -16,6 +16,7 @@ a{
 }
 section{
     padding: 10rem 0;
+    background-color: #fff;
 }
 .heading{
     text-transform: uppercase;
@@ -24,21 +25,19 @@ section{
     margin-right: -3px;
     margin-bottom: 5rem;
     text-align: center;
-    color: #fff;
+    color: #333;
     position: relative;
 }
 .heading::after{
     content: '';
     width: 10rem;
-    height: 8rem;
+    height: .8rem;
     background-color: #45e19f;
-    position: absolute;
-    bottom: -2rem;
     position: absolute;
     bottom: -2rem;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: (2rem);
+    border-radius: 2rem;
 }
 .card-wrapper{
     display: flex;
@@ -47,14 +46,14 @@ section{
     flex-direction: column;
 }
 .card{
-    width: 32rem;
+    width: 29.7rem;
     background-color: #ebeef8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
-    box-shadow: .5rem .5rem  3rem rgba(0.0.0.0.2);
+    box-shadow: .5rem .5rem  3rem rgba(0,0,0,0.2);
 }
 .card .card-img{
     width: 100%;
@@ -107,7 +106,7 @@ section{
     transform: translateY(0);
     box-shadow: none;
 }
-.solial-media{
+.social-media{
     width: 100%;
     list-style: none;
     display: flex;
@@ -116,7 +115,7 @@ section{
     margin-top: 1.5rem;
     border-top: 1px solid rgba(0,0,0, .1);
 }
-.solial-media i{
+.social-media i{
     font-size: 3rem;
     transition: color .5s;
 }
